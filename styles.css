@@ -1,0 +1,11 @@
+.coinSelection {
+    border: solid;
+    border-style: solid;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: lightgrey;
+}
+p{
+    text-align: center;
+}

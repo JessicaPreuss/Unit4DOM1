@@ -9,12 +9,28 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <nav>
-        <i class="fas fa-bars"></i>
-    </nav>
+    <form>
+        <label for="howMany"> How many?</label>
+        <input type="number" id="howMany" name="howMany"> <br>
+        <label for="whichCoin"> Which coin?</label>
+        <select name="coins" id="coins">
+            <option selected disabled>Pick a Coin!</option>
+            <option value="Penny">Penny</option>
+            <option value="Nickle">Nickle</option>
+            <option value="Dime">Dime</option>
+            <option value="Quarter">Quarter</option>
+
+        </select> <br>
+        <button type="submit">Make Money!</button>
+    </form>
+    <section class="coins">
+        <!-- <div class="coinSelection"><p>Dime</p></div>
+        <div class="coinSelection"><p>Nickle</p></div>   
+        <div class="coinSelection"><p>Penny</p></div>
+        <div class="coinSelection"><p>Quarter</p></div> -->
+        </section>
    
-    
-    
+
     <script src = "script.js"></script>  
 </body>
 </html>
